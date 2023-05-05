@@ -1,0 +1,61 @@
+{
+   "name": "Big Bank plc",
+   "lastModifiedData": "2023-04-06T11:26:23.300Z",
+   "views": {
+      "systemLandscapeViews": [
+         {
+            "elements": [
+               {
+                  "id": "",
+                  "x": 0,
+                  "y": 0
+               }
+            ]
+         }
+      ],
+      "systemContextViews": [
+         {
+            "elements": [
+               {
+                  "id": "",
+                  "x": 0,
+                  "y": 0
+               }
+            ]
+         }
+      ],
+      "containerViews": [
+         {
+            "elements": [
+               {
+                  "id": "",
+                  "x": 0,
+                  "y": 0
+               }
+            ]
+         }
+      ],
+      "componentViews": [
+         {
+            "elements": [
+               {
+                  "id": "",
+                  "x": 0,
+                  "y": 0
+               }
+            ]
+         }
+      ],
+      "deploymentViews": [
+         {
+            "elements": [
+               {
+                  "id": "",
+                  "x": 0,
+                  "y": 0
+               }
+            ]
+         }
+      ]
+   }
+}
