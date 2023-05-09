@@ -1,22 +1,23 @@
 {
    "name": "Big Bank plc",
-   "lastModifiedData": "2023-04-06T11:26:23.300Z",
+   "lastModifiedDate": "2023-04-06T11:26:23.300Z",
    "views": {
-      "systemLandscapeViews": [
+      "systemLandscape": {
+         "key": "SystemLandscape",
+         "elements": [
+            { "id": "customer", "x": 0, "y": 500 },
+            { "id": "internetBankingSystem", "x": 500, "y": 500 },
+            { "id": "atm", "x": 500, "y": 0 },
+            { "id": "email", "x": 500, "y": 1000 },
+            { "id": "supportStaff", "x": 1000, "y": 0 },
+            { "id": "mainframe", "x": 1000, "y": 500 },
+            { "id": "backoffice", "x": 100, "y": 1000 }
+         ]
+      },
+      "systemContexts": [
          {
-            "elements": [
-               { "id": "customer", "x": 0, "y": 500 },
-               { "id": "internetBankingSystem", "x": 500, "y": 500 },
-               { "id": "atm", "x": 500, "y": 0 },
-               { "id": "email", "x": 500, "y": 1000 },
-               { "id": "supportStaff", "x": 1000, "y": 0 },
-               { "id": "mainframe", "x": 1000, "y": 500 },
-               { "id": "backoffice", "x": 100, "y": 1000 }
-            ]
-         }
-      ],
-      "systemContextViews": [
-         {
+            "identifier": "internetBankingSystem",
+            "key": "SystemContext",
             "elements": [
                { "id": "customer", "x": 0, "y": 0 },
                { "id": "internetBankingSystem", "x": 0, "y": 400 },
@@ -25,8 +26,10 @@
             ]
          }
       ],
-      "containerViews": [
+      "containers": [
          {
+            "identifier": "internetBankingSystem",
+            "key": "Containers",
             "elements": [
                { "id": "customer", "x": 800, "y": 0 },
                { "id": "internetBankingSystem", "x": 0, "y": 380, "width": 1320, "height": 720 },
@@ -40,8 +43,10 @@
             ]
          }
       ],
-      "componentViews": [
+      "components": [
          {
+            "identifier": "apiApplication",
+            "key": "Components",
             "elements": [
                { "id": "internetBankingSystem", "x": 0, "y": 0, "width": 1660, "height": 1380 },
                { "id": "email", "x": 680, "y": 1100 },
@@ -59,8 +64,10 @@
             ]
          }
       ],
-      "deploymentViews": [
+      "deployments": [
          {
+            "identifier": "internetBankingSystem",
+            "key": "DevelopmentDeployment",
             "elements": [
                { "id": "internetBankingSystem", "x": 80, "y": 80 },
                { "id": "ss_mainframe_banking_inst_1", "x": 40, "y": 40 },
