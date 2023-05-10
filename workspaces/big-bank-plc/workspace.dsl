@@ -194,44 +194,38 @@ workspace "Big Bank plc" "This is an example workspace to illustrate the key fea
         }
 
         styles {
+            element "Element" {
+                shape RoundedBox
+                height 200
+                width 300
+            }
             element "Person" {
+                background #38A169
                 color #ffffff
-                fontSize 22
-                shape Person
-            }
-            element "Customer" {
-                background #08427b
-            }
-            element "Bank Staff" {
-                background #999999
+                strokeWidth 0
             }
             element "Software System" {
-                background #1168bd
+                background #6B46C1
                 color #ffffff
+                strokeWidth 0
+            }
+            element "Container" {
+                background #3182ce
+                color #ffffff
+                strokeWidth 0
+            }
+            element "Component" {
+                background #90cdf4
+                color #000000
+                strokeWidth 0
+            }
+            element "Deployment Node" {
+                color #000000
+                strokeWidth 0
             }
             element "Existing System" {
                 background #999999
-                color #ffffff
-            }
-            element "Container" {
-                background #438dd5
-                color #ffffff
-            }
-            element "Web Browser" {
-                shape WebBrowser
-            }
-            element "Mobile App" {
-                shape MobileDeviceLandscape
-            }
-            element "Database" {
-                shape Cylinder
-            }
-            element "Component" {
-                background #85bbf0
-                color #000000
-            }
-            element "Failover" {
-                opacity 25
+                strokeWidth 2
             }
         }
     }
