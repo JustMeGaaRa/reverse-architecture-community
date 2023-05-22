@@ -5,13 +5,13 @@
       "systemLandscape": {
          "key": "SystemLandscape",
          "elements": [
-            { "id": "customer", "x": 0, "y": 500 },
-            { "id": "internetBankingSystem", "x": 500, "y": 500 },
-            { "id": "atm", "x": 500, "y": 0 },
-            { "id": "email", "x": 500, "y": 1000 },
-            { "id": "supportStaff", "x": 1000, "y": 0 },
-            { "id": "mainframe", "x": 1000, "y": 500 },
-            { "id": "backoffice", "x": 100, "y": 1000 }
+            { "id": "customer", "x": 0, "y": 540 },
+            { "id": "atm", "x": 40, "y": 40 },
+            { "id": "internetBankingSystem", "x": 40, "y": 540 },
+            { "id": "email", "x": 40, "y": 1040 },
+            { "id": "supportStaff", "x": 540, "y": 40 },
+            { "id": "mainframe", "x": 540, "y": 540 },
+            { "id": "backoffice", "x": 540, "y": 1040 }
          ]
       },
       "systemContexts": [

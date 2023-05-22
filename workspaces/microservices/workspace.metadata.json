@@ -1,0 +1,146 @@
+{
+    "name": "",
+    "lastModifiedDate": "2023-05-22T09:10:04.645Z",
+    "views": {
+        "systemContexts": [],
+        "containers": [
+            {
+                "identifier": "system",
+                "elements": [
+                    {
+                        "id": "service8",
+                        "x": 4250,
+                        "y": 500
+                    },
+                    {
+                        "id": "service7",
+                        "x": 3650,
+                        "y": 500
+                    },
+                    {
+                        "id": "service6",
+                        "x": 3050,
+                        "y": 500
+                    },
+                    {
+                        "id": "service5",
+                        "x": 2450,
+                        "y": 500
+                    },
+                    {
+                        "id": "service4",
+                        "x": 1850,
+                        "y": 500
+                    },
+                    {
+                        "id": "service3",
+                        "x": 1250,
+                        "y": 500
+                    },
+                    {
+                        "id": "service2",
+                        "x": 650,
+                        "y": 500
+                    },
+                    {
+                        "id": "system",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "id": "Service 8 Database",
+                        "x": 50,
+                        "y": 600
+                    },
+                    {
+                        "id": "service8Api",
+                        "x": 50,
+                        "y": 150
+                    },
+                    {
+                        "id": "Service 7 Database",
+                        "x": 50,
+                        "y": 600
+                    },
+                    {
+                        "id": "service7Api",
+                        "x": 50,
+                        "y": 150
+                    },
+                    {
+                        "id": "Service 6 Database",
+                        "x": 50,
+                        "y": 600
+                    },
+                    {
+                        "id": "service6Api",
+                        "x": 50,
+                        "y": 150
+                    },
+                    {
+                        "id": "Service 5 Database",
+                        "x": 50,
+                        "y": 600
+                    },
+                    {
+                        "id": "service5Api",
+                        "x": 50,
+                        "y": 150
+                    },
+                    {
+                        "id": "Service 4 Database",
+                        "x": 50,
+                        "y": 600
+                    },
+                    {
+                        "id": "service4Api",
+                        "x": 50,
+                        "y": 150
+                    },
+                    {
+                        "id": "Service 3 Database",
+                        "x": 50,
+                        "y": 600
+                    },
+                    {
+                        "id": "service3Api",
+                        "x": 50,
+                        "y": 150
+                    },
+                    {
+                        "id": "Service 2 Database",
+                        "x": 50,
+                        "y": 600
+                    },
+                    {
+                        "id": "service2Api",
+                        "x": 50,
+                        "y": 150
+                    },
+                    {
+                        "id": "Service 1 Database",
+                        "x": 50,
+                        "y": 600
+                    },
+                    {
+                        "id": "service1Api",
+                        "x": 50,
+                        "y": 150
+                    },
+                    {
+                        "id": "service1",
+                        "x": 50,
+                        "y": 500
+                    },
+                    {
+                        "id": "webapp",
+                        "x": 2300,
+                        "y": 100
+                    }
+                ]
+            }
+        ],
+        "components": [],
+        "deployments": []
+    }
+}
