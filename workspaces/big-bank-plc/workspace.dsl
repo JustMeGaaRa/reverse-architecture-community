@@ -192,41 +192,5 @@ workspace "Big Bank plc" "This is an example workspace to illustrate the key fea
             autoLayout
             description "An example live deployment scenario for the Internet Banking System."
         }
-
-        styles {
-            element "Element" {
-                shape RoundedBox
-                height 200
-                width 300
-            }
-            element "Person" {
-                background #38A169
-                color #ffffff
-                strokeWidth 0
-            }
-            element "Software System" {
-                background #6B46C1
-                color #ffffff
-                strokeWidth 0
-            }
-            element "Container" {
-                background #3182ce
-                color #ffffff
-                strokeWidth 0
-            }
-            element "Component" {
-                background #90cdf4
-                color #000000
-                strokeWidth 0
-            }
-            element "Deployment Node" {
-                color #000000
-                strokeWidth 0
-            }
-            element "Existing System" {
-                background #999999
-                strokeWidth 2
-            }
-        }
     }
 }

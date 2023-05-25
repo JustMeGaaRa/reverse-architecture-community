@@ -1,0 +1,66 @@
+{
+    "name": "",
+    "lastModifiedDate": "2023-05-25T15:51:05.249Z",
+    "views": {
+        "systemContexts": [],
+        "containers": [],
+        "components": [],
+        "deployments": [
+            {
+                "identifier": "springPetClinic",
+                "elements": [
+                    {
+                        "id": "Amazon Web Services",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "id": "region",
+                        "x": 50,
+                        "y": 50
+                    },
+                    {
+                        "id": "route53",
+                        "x": 150,
+                        "y": 200
+                    },
+                    {
+                        "id": "elb",
+                        "x": 500,
+                        "y": 200
+                    },
+                    {
+                        "id": "Autoscaling group",
+                        "x": 1000,
+                        "y": 50
+                    },
+                    {
+                        "id": "Amazon EC2",
+                        "x": 50,
+                        "y": 50
+                    },
+                    {
+                        "id": "webApplicationInstance",
+                        "x": 50,
+                        "y": 50
+                    },
+                    {
+                        "id": "Amazon RDS",
+                        "x": 1500,
+                        "y": 50
+                    },
+                    {
+                        "id": "MySQL",
+                        "x": 50,
+                        "y": 50
+                    },
+                    {
+                        "id": "databaseInstance",
+                        "x": 50,
+                        "y": 50
+                    }
+                ]
+            }
+        ]
+    }
+}
