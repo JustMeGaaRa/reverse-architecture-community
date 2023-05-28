@@ -4,36 +4,32 @@
             "workspaceId": "amazon-web-services",
             "name": "Amazon Web Services",
             "updated": "29.03.2023",
-            "updatedBy": "pavlo@rvrs.io",
-            "url": "/workspaces/amazon-web-services/workspace.dsl",
-            "metadataUrl": "/workspaces/amazon-web-services/workspace.metadata.json",
+            "author": "pavlo@rvrs.io",
+            "preview": "",
             "tags": ["community", "finance"]
         },
         {
             "workspaceId": "big-bank-plc",
             "name": "Big Bank plc.",
             "updated": "30.03.2023",
-            "updatedBy": "vitalii@rvrs.io",
-            "url": "/workspaces/big-bank-plc/workspace.dsl",
-            "metadataUrl": "/workspaces/big-bank-plc/workspace.metadata.json",
+            "author": "vitalii@rvrs.io",
+            "preview": "https://raw.githubusercontent.com/JustMeGaaRa/reverse-architecture-community/main/workspaces/big-bank-plc/workspace.preview.png",
             "tags": ["community", "technology"]
         },
         {
             "workspaceId": "financial-risk-system",
             "name": "Financial Risk System",
             "updated": "30.03.2023",
-            "updatedBy": "romano@rvrs.io",
-            "url": "/workspaces/financial-risk-system/workspace.dsl",
-            "metadataUrl": "/workspaces/financial-risk-system/workspace.metadata.json",
+            "author": "romano@rvrs.io",
+            "preview": "",
             "tags": ["community", "finance"]
         },
         {
             "workspaceId": "microservices",
             "name": "Microservices",
             "updated": "30.03.2023",
-            "updatedBy": "oleh@rvrs.io",
-            "url": "/workspaces/microservices/workspace.dsl",
-            "metadataUrl": "/workspaces/microservices/workspace.metadata.json",
+            "author": "oleh@rvrs.io",
+            "preview": "",
             "tags": ["community", "technology"]
         }
     ]
