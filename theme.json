@@ -9,6 +9,13 @@
             "width": 300
         },
         {
+            "tag": "Group",
+            "color": "#ffffff",
+            "background": "#2D2F30",
+            "stroke": "#E8E8E8",
+            "strokeWidth": 1
+        },
+        {
             "tag": "Person",
             "background": "#342323",
             "color": "#ffffff",
@@ -41,11 +48,6 @@
             "background": "#1F3126",
             "color": "#ffffff",
             "stroke": "#30D158",
-            "strokeWidth": 1
-        },
-        {
-            "tag": "Existing System",
-            "background": "#000000",
             "strokeWidth": 1
         }
     ]
