@@ -5,13 +5,13 @@
       "systemLandscape": {
          "key": "SystemLandscape",
          "elements": [
-            { "id": "customer", "x": -500, "y": 540 },
-            { "id": "atm", "x": 40, "y": 40 },
-            { "id": "internetBankingSystem", "x": 40, "y": 540 },
-            { "id": "email", "x": 40, "y": 1040 },
-            { "id": "supportStaff", "x": 540, "y": 40 },
-            { "id": "mainframe", "x": 540, "y": 540 },
-            { "id": "backoffice", "x": 540, "y": 1040 }
+            { "id": "customer", "x": 0, "y": 400 },
+            { "id": "atm", "x": 300, "y": 0 },
+            { "id": "internetBankingSystem", "x": 0, "y": 400 },
+            { "id": "email", "x": 0, "y": 800 },
+            { "id": "supportStaff", "x": 600, "y": 0 },
+            { "id": "mainframe", "x": 600, "y": 400 },
+            { "id": "backoffice", "x": 600, "y": 800 }
          ]
       },
       "systemContexts": [
@@ -21,8 +21,8 @@
             "elements": [
                { "id": "customer", "x": 0, "y": 0 },
                { "id": "internetBankingSystem", "x": 0, "y": 400 },
-               { "id": "email", "x": 480, "y": 400 },
-               { "id": "mainframe", "x": 0, "y": 800 }
+               { "id": "mainframe", "x": 0, "y": 800 },
+               { "id": "email", "x": 600, "y": 400 }
             ]
          }
       ],
@@ -32,14 +32,13 @@
             "key": "Containers",
             "elements": [
                { "id": "customer", "x": 800, "y": 0 },
-               { "id": "internetBankingSystem", "x": 0, "y": 380, "width": 1320, "height": 720 },
-               { "id": "email", "x": 1500, "y": 420 },
-               { "id": "mainframe", "x": 1500, "y": 820 },
-               { "id": "webApplication", "x": 40, "y": 40 },
-               { "id": "singlePageApplication", "x": 640, "y": 40 },
-               { "id": "mobileApp", "x": 980, "y": 40 },
-               { "id": "apiApplication", "x": 800, "y": 440 },
-               { "id": "database", "x": 40, "y": 440 }
+               { "id": "webApplication", "x": 0, "y": 400 },
+               { "id": "singlePageApplication", "x": 600, "y": 400 },
+               { "id": "mobileApp", "x": 1200, "y": 400 },
+               { "id": "email", "x": 1800, "y": 400 },
+               { "id": "database", "x": 0, "y": 800 },
+               { "id": "apiApplication", "x": 900, "y": 800 },
+               { "id": "mainframe", "x": 1800, "y": 800 }
             ]
          }
       ],
@@ -48,19 +47,17 @@
             "identifier": "apiApplication",
             "key": "Components",
             "elements": [
-               { "id": "internetBankingSystem", "x": 0, "y": 0, "width": 1660, "height": 1380 },
-               { "id": "email", "x": 680, "y": 1100 },
-               { "id": "mainframe", "x": 1280, "y": 1100 },
-               { "id": "singlePageApplication", "x": 380, "y": 40 },
-               { "id": "mobileApp", "x": 980, "y": 40 },
-               { "id": "apiApplication", "x": 40, "y": 380, "width": 1580, "height": 600 },
-               { "id": "database", "x": 80, "y": 1100 },
-               { "id": "signinController", "x": 40, "y": 40 },
-               { "id": "resetPasswordController", "x": 640, "y": 40 },
-               { "id": "accountsSummaryController", "x": 1240, "y": 40 },
-               { "id": "securityComponent", "x": 40, "y": 320 },
-               { "id": "emailComponent", "x": 640, "y": 320 },
-               { "id": "mainframeBankingSystemFacade", "x": 1240, "y": 320 }
+               { "id": "singlePageApplication", "x": 300, "y": 0 },
+               { "id": "mobileApp", "x": 900, "y": 0 },
+               { "id": "signinController", "x": 0, "y": 400 },
+               { "id": "resetPasswordController", "x": 600, "y": 400 },
+               { "id": "accountsSummaryController", "x": 1200, "y": 400 },
+               { "id": "securityComponent", "x": 0, "y": 800 },
+               { "id": "emailComponent", "x": 600, "y": 800 },
+               { "id": "mainframeBankingSystemFacade", "x": 1200, "y": 800 },
+               { "id": "database", "x": 0, "y": 1200 },
+               { "id": "email", "x": 600, "y": 1200 },
+               { "id": "mainframe", "x": 1200, "y": 1200 }
             ]
          }
       ],
