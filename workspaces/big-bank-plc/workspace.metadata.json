@@ -6,7 +6,7 @@
          "key": "SystemLandscape",
          "elements": [
             { "id": "customer", "x": 0, "y": 400 },
-            { "id": "atm", "x": 300, "y": 0 },
+            { "id": "atm", "x": 0, "y": 0 },
             { "id": "internetBankingSystem", "x": 0, "y": 400 },
             { "id": "email", "x": 0, "y": 800 },
             { "id": "supportStaff", "x": 600, "y": 0 },
