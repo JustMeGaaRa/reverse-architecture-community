@@ -10,54 +10,24 @@
                 "identifier": "springPetClinic",
                 "elements": [
                     {
-                        "id": "Amazon Web Services",
+                        "id": "route53",
                         "x": 0,
                         "y": 0
                     },
                     {
-                        "id": "region",
-                        "x": 50,
-                        "y": 50
-                    },
-                    {
-                        "id": "route53",
-                        "x": 50,
-                        "y": 200
-                    },
-                    {
                         "id": "elb",
-                        "x": 1000,
-                        "y": 200
-                    },
-                    {
-                        "id": "Autoscaling group",
-                        "x": 1700,
-                        "y": 50
-                    },
-                    {
-                        "id": "Amazon EC2",
-                        "x": 50,
-                        "y": 50
+                        "x": 600,
+                        "y": 0
                     },
                     {
                         "id": "webApplicationInstance",
-                        "x": 50,
-                        "y": 50
-                    },
-                    {
-                        "id": "Amazon RDS",
-                        "x": 2400,
-                        "y": 50
-                    },
-                    {
-                        "id": "MySQL",
-                        "x": 50,
-                        "y": 50
+                        "x": 1200,
+                        "y": 0
                     },
                     {
                         "id": "databaseInstance",
-                        "x": 50,
-                        "y": 50
+                        "x": 1800,
+                        "y": 0
                     }
                 ]
             }
