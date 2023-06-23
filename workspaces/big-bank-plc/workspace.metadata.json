@@ -6,12 +6,12 @@
          "key": "SystemLandscape",
          "elements": [
             { "id": "customer", "x": 0, "y": 400 },
-            { "id": "atm", "x": 0, "y": 0 },
-            { "id": "internetBankingSystem", "x": 0, "y": 400 },
-            { "id": "email", "x": 0, "y": 800 },
-            { "id": "supportStaff", "x": 600, "y": 0 },
-            { "id": "mainframe", "x": 600, "y": 400 },
-            { "id": "backoffice", "x": 600, "y": 800 }
+            { "id": "atm", "x": 600, "y": 0 },
+            { "id": "internetBankingSystem", "x": 600, "y": 400 },
+            { "id": "email", "x": 600, "y": 800 },
+            { "id": "supportStaff", "x": 1200, "y": 0 },
+            { "id": "mainframe", "x": 1200, "y": 400 },
+            { "id": "backoffice", "x": 1200, "y": 800 }
          ]
       },
       "systemContexts": [
@@ -31,7 +31,7 @@
             "identifier": "internetBankingSystem",
             "key": "Containers",
             "elements": [
-               { "id": "customer", "x": 800, "y": 0 },
+               { "id": "customer", "x": 900, "y": 0 },
                { "id": "webApplication", "x": 0, "y": 400 },
                { "id": "singlePageApplication", "x": 600, "y": 400 },
                { "id": "mobileApp", "x": 1200, "y": 400 },
@@ -64,29 +64,16 @@
       "deployments": [
          {
             "identifier": "internetBankingSystem",
+            "environment": "Live",
             "key": "DevelopmentDeployment",
             "elements": [
-               { "id": "internetBankingSystem", "x": 80, "y": 80 },
-               { "id": "ss_mainframe_banking_inst_1", "x": 40, "y": 40 },
-               { "id": "liveWebApplicationInstance", "x": 40, "y": 40 },
-               { "id": "liveSinglePageApplicationInstance", "x": 40, "y": 40 },
-               { "id": "liveMobileAppInstance", "x": 40, "y": 40 },
-               { "id": "liveApiApplicationInstance", "x": 40, "y": 40 },
-               { "id": "livePrimaryDatabaseInstance", "x": 40, "y": 40 },
-               { "id": "liveSecondaryDatabaseInstance", "x": 40, "y": 40 },
-               { "id": "dn_customers_computer", "x": 0, "y": 40, "width": 460, "height": 420 },
-               { "id": "dn_web_browser", "x": 40, "y": 40, "width": 380, "height": 320 },
-               { "id": "dn_customers_mobile", "x": 40, "y": 740, "width": 380, "height": 320 },
-               { "id": "dn_big_bank_plc", "x": 800, "y": 0, "width": 1300, "height": 1800 },
-               { "id": "dn_bigbank_web", "x": 40, "y": 40, "width": 460, "height": 420 },
-               { "id": "dn_apache_tomcat_1", "x": 40, "y": 40, "width": 380, "height": 320 },
-               { "id": "dn_bigbank_api", "x": 40, "y": 700, "width": 460, "height": 420 },
-               { "id": "dn_apache_tomcat_2", "x": 40, "y": 40, "width": 380, "height": 320 },
-               { "id": "dn_bigbank_db02", "x": 800, "y": 40, "width": 460, "height": 420 },
-               { "id": "primaryDatabaseServer", "x": 40, "y": 40, "width": 380, "height": 320 },
-               { "id": "dn_bigbank_db01", "x": 800, "y": 700, "width": 460, "height": 420 },
-               { "id": "secondaryDatabaseServer", "x": 40, "y": 40, "width": 380, "height": 320 },
-               { "id": "dn_bigbank_prod001", "x": 840, "y": 1400, "width": 380, "height": 320 }
+               { "id": "liveSinglePageApplicationInstance", "x": 0, "y": 0 },
+               { "id": "liveMobileAppInstance", "x": 0, "y": 400 },
+               { "id": "liveWebApplicationInstance", "x": 600, "y": 0 },
+               { "id": "liveApiApplicationInstance", "x": 600, "y": 400 },
+               { "id": "livePrimaryDatabaseInstance", "x": 1200, "y": 0 },
+               { "id": "liveSecondaryDatabaseInstance", "x": 1200, "y": 400 },
+               { "id": "mainframeInstance", "x": 1200, "y": 800 }
             ]
          }
       ]

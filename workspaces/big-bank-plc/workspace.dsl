@@ -117,7 +117,7 @@ workspace "Big Bank plc" "This is an example workspace to illustrate the key fea
                     }
                 }
                 deploymentNode "bigbank-prod001" "" "" "" {
-                    softwareSystemInstance mainframe
+                    mainframeInstance = softwareSystemInstance mainframe
                 }
             }
 
