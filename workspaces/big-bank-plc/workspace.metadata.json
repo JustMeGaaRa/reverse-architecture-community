@@ -5,14 +5,14 @@
       "systemLandscape": {
          "key": "SystemLandscape",
          "elements": [
-            { "id": "customer", "x": 0, "y": 400 },
-            { "id": "atm", "x": 600, "y": 0 },
-            { "id": "internetBankingSystem", "x": 600, "y": 400 },
-            { "id": "email", "x": 600, "y": 800 },
-            { "id": "supportStaff", "x": 1200, "y": 0 },
-            { "id": "mainframe", "x": 1200, "y": 400 },
-            { "id": "backoffice", "x": 1200, "y": 800 },
-            { "id": "Big Bank plc", "x": 600, "y": 100, "width": 1000, "height": 1200 }
+            { "id": "customer", "x": 0, "y": 500 },
+            { "id": "atm", "x": 100, "y": 100 },
+            { "id": "internetBankingSystem", "x": 100, "y": 500 },
+            { "id": "email", "x": 100, "y": 900 },
+            { "id": "supportStaff", "x": 700, "y": 100 },
+            { "id": "mainframe", "x": 700, "y": 500 },
+            { "id": "backoffice", "x": 700, "y": 900 },
+            { "id": "Big Bank plc", "x": 400, "y": 0, "width": 1000, "height": 1200 }
          ]
       },
       "systemContexts": [
@@ -33,14 +33,14 @@
             "key": "Containers",
             "elements": [
                { "id": "customer", "x": 900, "y": 0 },
-               { "id": "webApplication", "x": 0, "y": 400 },
-               { "id": "singlePageApplication", "x": 600, "y": 400 },
-               { "id": "mobileApp", "x": 1200, "y": 400 },
-               { "id": "email", "x": 1800, "y": 400 },
-               { "id": "database", "x": 0, "y": 800 },
-               { "id": "apiApplication", "x": 900, "y": 800 },
-               { "id": "mainframe", "x": 1800, "y": 800 },
-               { "id": "internetBankingSystem", "x": 100, "y": 400, "width": 1600, "height": 800 }
+               { "id": "webApplication", "x": 100, "y": 100 },
+               { "id": "singlePageApplication", "x": 700, "y": 100 },
+               { "id": "mobileApp", "x": 1300, "y": 100 },
+               { "id": "email", "x": 1800, "y": 500 },
+               { "id": "database", "x": 100, "y": 500 },
+               { "id": "apiApplication", "x": 1000, "y": 500 },
+               { "id": "mainframe", "x": 1800, "y": 900 },
+               { "id": "internetBankingSystem", "x": 0, "y": 400, "width": 1600, "height": 800 }
             ]
          }
       ],
@@ -51,16 +51,16 @@
             "elements": [
                { "id": "singlePageApplication", "x": 300, "y": 0 },
                { "id": "mobileApp", "x": 900, "y": 0 },
-               { "id": "signinController", "x": 0, "y": 400 },
-               { "id": "resetPasswordController", "x": 600, "y": 400 },
-               { "id": "accountsSummaryController", "x": 1200, "y": 400 },
-               { "id": "securityComponent", "x": 0, "y": 800 },
-               { "id": "emailComponent", "x": 600, "y": 800 },
-               { "id": "mainframeBankingSystemFacade", "x": 1200, "y": 800 },
-               { "id": "database", "x": 0, "y": 1200 },
-               { "id": "email", "x": 600, "y": 1200 },
-               { "id": "mainframe", "x": 1200, "y": 1200 },
-               { "id": "apiApplication", "x": 100, "y": 400, "width": 1600, "height": 800 }
+               { "id": "signinController", "x": 100, "y": 100 },
+               { "id": "resetPasswordController", "x": 500, "y": 100 },
+               { "id": "accountsSummaryController", "x": 1100, "y": 100 },
+               { "id": "securityComponent", "x": 100, "y": 500 },
+               { "id": "emailComponent", "x": 500, "y": 500 },
+               { "id": "mainframeBankingSystemFacade", "x": 1100, "y": 500 },
+               { "id": "database", "x": 100, "y": 1400 },
+               { "id": "email", "x": 500, "y": 1400 },
+               { "id": "mainframe", "x": 1100, "y": 1400 },
+               { "id": "apiApplication", "x": 0, "y": 400, "width": 1600, "height": 800 }
             ]
          }
       ],
