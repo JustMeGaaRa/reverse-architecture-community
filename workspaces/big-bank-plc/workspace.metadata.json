@@ -32,7 +32,7 @@
             "identifier": "internetBankingSystem",
             "key": "Containers",
             "elements": [
-               { "id": "customer", "x": 900, "y": 0 },
+               { "id": "customer", "x": 1000, "y": 0 },
                { "id": "webApplication", "x": 100, "y": 100 },
                { "id": "singlePageApplication", "x": 700, "y": 100 },
                { "id": "mobileApp", "x": 1300, "y": 100 },
@@ -52,13 +52,13 @@
                { "id": "singlePageApplication", "x": 300, "y": 0 },
                { "id": "mobileApp", "x": 900, "y": 0 },
                { "id": "signinController", "x": 100, "y": 100 },
-               { "id": "resetPasswordController", "x": 500, "y": 100 },
+               { "id": "resetPasswordController", "x": 60, "y": 100 },
                { "id": "accountsSummaryController", "x": 1100, "y": 100 },
                { "id": "securityComponent", "x": 100, "y": 500 },
-               { "id": "emailComponent", "x": 500, "y": 500 },
+               { "id": "emailComponent", "x": 600, "y": 500 },
                { "id": "mainframeBankingSystemFacade", "x": 1100, "y": 500 },
                { "id": "database", "x": 100, "y": 1400 },
-               { "id": "email", "x": 500, "y": 1400 },
+               { "id": "email", "x": 600, "y": 1400 },
                { "id": "mainframe", "x": 1100, "y": 1400 },
                { "id": "apiApplication", "x": 0, "y": 400, "width": 1600, "height": 800 }
             ]
