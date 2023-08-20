@@ -11,7 +11,8 @@
             { "id": "email", "x": 600, "y": 800 },
             { "id": "supportStaff", "x": 1200, "y": 0 },
             { "id": "mainframe", "x": 1200, "y": 400 },
-            { "id": "backoffice", "x": 1200, "y": 800 }
+            { "id": "backoffice", "x": 1200, "y": 800 },
+            { "id": "Big Bank plc", "x": 600, "y": 100, "width": 1000, "height": 1200 }
          ]
       },
       "systemContexts": [
@@ -38,7 +39,8 @@
                { "id": "email", "x": 1800, "y": 400 },
                { "id": "database", "x": 0, "y": 800 },
                { "id": "apiApplication", "x": 900, "y": 800 },
-               { "id": "mainframe", "x": 1800, "y": 800 }
+               { "id": "mainframe", "x": 1800, "y": 800 },
+               { "id": "internetBankingSystem", "x": 100, "y": 400, "width": 1600, "height": 800 }
             ]
          }
       ],
@@ -57,7 +59,8 @@
                { "id": "mainframeBankingSystemFacade", "x": 1200, "y": 800 },
                { "id": "database", "x": 0, "y": 1200 },
                { "id": "email", "x": 600, "y": 1200 },
-               { "id": "mainframe", "x": 1200, "y": 1200 }
+               { "id": "mainframe", "x": 1200, "y": 1200 },
+               { "id": "apiApplication", "x": 100, "y": 400, "width": 1600, "height": 800 }
             ]
          }
       ],
