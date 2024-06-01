@@ -128,7 +128,6 @@ workspace "Big Bank plc" "This is an example workspace to illustrate the key fea
     views {
         systemlandscape "SystemLandscape" {
             include *
-            autoLayout
         }
 
         systemcontext internetBankingSystem "SystemContext" {
@@ -139,7 +138,6 @@ workspace "Big Bank plc" "This is an example workspace to illustrate the key fea
                 mainframe
                 email
             }
-            autoLayout
             description "The system context diagram for the Internet Banking System."
         }
 
@@ -153,7 +151,6 @@ workspace "Big Bank plc" "This is an example workspace to illustrate the key fea
                 apiApplication
                 database
             }
-            autoLayout
             description "The container diagram for the Internet Banking System."
         }
 
@@ -165,7 +162,6 @@ workspace "Big Bank plc" "This is an example workspace to illustrate the key fea
                 accountsSummaryController mainframeBankingSystemFacade
                 resetPasswordController emailComponent
             }
-            autoLayout
             description "The component diagram for the API Application."
         }
 
@@ -176,7 +172,6 @@ workspace "Big Bank plc" "This is an example workspace to illustrate the key fea
                 developerWebApplicationInstance developerApiApplicationInstance
                 developerDatabaseInstance
             }
-            autoLayout
             description "An example development deployment scenario for the Internet Banking System."
         }
 
@@ -189,7 +184,6 @@ workspace "Big Bank plc" "This is an example workspace to illustrate the key fea
                 livePrimaryDatabaseInstance
                 liveSecondaryDatabaseInstance
             }
-            autoLayout
             description "An example live deployment scenario for the Internet Banking System."
         }
     }

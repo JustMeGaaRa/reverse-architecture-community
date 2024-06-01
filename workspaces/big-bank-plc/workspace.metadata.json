@@ -52,7 +52,7 @@
                { "id": "singlePageApplication", "x": 300, "y": 0 },
                { "id": "mobileApp", "x": 900, "y": 0 },
                { "id": "signinController", "x": 100, "y": 100 },
-               { "id": "resetPasswordController", "x": 60, "y": 100 },
+               { "id": "resetPasswordController", "x": 600, "y": 100 },
                { "id": "accountsSummaryController", "x": 1100, "y": 100 },
                { "id": "securityComponent", "x": 100, "y": 500 },
                { "id": "emailComponent", "x": 600, "y": 500 },
@@ -60,7 +60,7 @@
                { "id": "database", "x": 100, "y": 1400 },
                { "id": "email", "x": 600, "y": 1400 },
                { "id": "mainframe", "x": 1100, "y": 1400 },
-               { "id": "apiApplication", "x": 0, "y": 400, "width": 1600, "height": 800 }
+               { "id": "apiApplication", "x": 0, "y": 400, "width": 1400, "height": 800 }
             ]
          }
       ],
@@ -68,7 +68,7 @@
          {
             "identifier": "internetBankingSystem",
             "environment": "Live",
-            "key": "DevelopmentDeployment",
+            "key": "LiveDeployment",
             "elements": [
                { "id": "liveSinglePageApplicationInstance", "x": 0, "y": 0 },
                { "id": "liveMobileAppInstance", "x": 0, "y": 400 },
